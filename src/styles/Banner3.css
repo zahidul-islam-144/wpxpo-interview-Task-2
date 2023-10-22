@@ -1,0 +1,87 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.banner3_RowMain {
+    background: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 296px;
+    width: 100%;
+}
+
+.banner3_RowMain > div {
+    display: contents;
+}
+
+.banner3_RowMain > div div.imageBlock {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.banner3_RowMain > div div.contentBlock {
+    width: 573px;
+    height: 169px;
+    margin-left: 20px;
+}
+
+.banner3_RowMain > div div.contentBlock > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.banner3_RowMain > div div.contentBlock > div:first-child {
+    font-family: Vidaloka;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+}
+
+.banner3_RowMain > div div.contentBlock > div:nth-child(2){
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.banner3_RowMain > div div.contentBlock > div:last-child div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.banner3_RowMain > div div.contentBlock > div:last-child div .postNum{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.banner3_RowMain > div div.contentBlock > div:last-child div ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner3_RowMain > div div.contentBlock > div:last-child div ul li {
+    list-style: none;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+
+}
+
+.banner3_RowMain > div div.contentBlock > div:last-child div ul li span svg{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}

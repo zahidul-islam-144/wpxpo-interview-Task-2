@@ -1,0 +1,105 @@
+.horizontalBreakLine {
+  display: grid;
+  margin: auto;
+  margin-top: calc(50vh - 170px);
+  width: 100%;
+}
+.horizontalBreakLine fieldset {
+  border: 2px solid transparent;
+  border-top-color: black;
+  box-sizing: border-box;
+  grid-area: 1 / 1;
+  width: inherit;
+}
+
+.horizontalBreakLine fieldset > legend {
+  text-align: center;
+  /* float: none; */
+  /* padding: 0 10px; */
+}
+
+.popularPostRowMain .singlePostBlock {
+  height: 333px;
+  width: 350px;
+  position: relative;
+}
+
+.popularPostRowMain .singlePostBlock .imageBlock {
+  height: 286px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.popularPostRowMain .singlePostBlock .contentBlock {
+  position: absolute;
+  height: 168px;
+  width: 292px;
+  top: 10rem;
+  left: 1.85rem;
+  border: 1px solid #1d1a1a;
+  background-color: white;
+  display: grid;
+  gap: 5%;
+  padding: 10px 0;
+}
+
+.popularPostRowMain .singlePostBlock .contentBlock > div,
+.popularPostBottom .singlePost .contentBlock > div {
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.popularPostRowMain .singlePostBlock .contentBlock > div:first-child,
+.popularPostBottom .singlePost .contentBlock > div:first-child {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+}
+
+.popularPostRowMain .singlePostBlock .contentBlock > div:nth-child(2), 
+.popularPostBottom .singlePost .contentBlock > div:nth-child(2) {
+  font-family: Vidaloka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.popularPostRowMain .singlePostBlock .contentBlock > div:last-child,
+.popularPostBottom .singlePost .contentBlock > div:last-child {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.popularPostBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popularPostBottom .singlePost {
+  position: relative;
+}
+
+.popularPostBottom .singlePost .imageBlock {
+  width: 540px;
+  height: 444px;
+}
+
+.popularPostBottom .singlePost .contentBlock {
+  position: absolute;
+  width: 410px;
+  height: 168px;
+  border: 1px solid #1d1a1a;
+  background: white;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

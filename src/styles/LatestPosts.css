@@ -1,0 +1,76 @@
+.horizontalBreakLine {
+    display: grid; 
+    margin: auto; 
+    margin-top: calc(50vh - 170px);
+    width: 100%; 
+}
+.horizontalBreakLine fieldset {
+    border: 2px solid transparent; 
+    border-top-color: black; 
+    box-sizing: border-box; 
+    grid-area: 1 / 1; 
+    width: inherit; 
+  }
+
+  .horizontalBreakLine fieldset > legend {
+    text-align: center;
+    /* float: none; */
+    /* padding: 0 10px; */
+  }
+
+.latestPostRowMain .singlePostBlock {
+  height: 333px;
+  width: 350px;
+  position: relative;
+}
+
+.latestPostRowMain .singlePostBlock .imageBlock {
+  height: 286px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.latestPostRowMain .singlePostBlock .contentBlock {
+  position: absolute;
+  height: 168px;
+  width: 292px;
+  top: 10rem;
+  left: 1.85rem;
+  border: 1px solid #1d1a1a;
+  background-color: white;
+  display: grid;
+  gap: 5%;
+  padding: 10px 0;
+}
+
+.latestPostRowMain .singlePostBlock .contentBlock > div {
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.latestPostRowMain .singlePostBlock .contentBlock > div:first-child {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+}
+
+.latestPostRowMain .singlePostBlock .contentBlock > div:nth-child(2) {
+  font-family: Vidaloka;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.latestPostRowMain .singlePostBlock .contentBlock > div:last-child {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}

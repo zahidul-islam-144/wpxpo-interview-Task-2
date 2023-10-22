@@ -1,0 +1,139 @@
+.header_block_left {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6f6f6f;
+}
+
+.header_block_rigth {
+  height: 32px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobBarIcon_block {
+  display: none;
+}
+
+.header_block_rigth ul {
+  display: flex;
+  border-right: 2px solid #dddddd;
+  margin: 0;
+}
+
+.header_block_rigth ul li {
+  list-style: none;
+  margin: 0 12px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.header_block_rigth ul li span svg {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.header_block_rigth .subscribe {
+  width: 121px;
+  height: 36px;
+  top: 22px;
+  left: 1154px;
+  padding: 8px, 20px, 8px, 20px;
+  border-radius: 22px;
+  background: #1d1a1a;
+  margin-left: 12px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .mobBarIcon_block {
+    display: block;
+  }
+
+  .mobBarIcon_block .burger_menu,
+  .mobBarIcon_block .closeMobBar {
+    cursor: pointer;
+    height: 2em;
+    width: 2rem;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 30ms;
+  }
+
+  .mobBarIcon_block .burger_menu:hover,
+  .mobBarIcon_block .closeMobBar:hover {
+    border: 1px solid #dddddd;
+    color: black;
+  }
+
+  .header_block_rigth {
+    display: none;
+  }
+
+  .header_block_right_mobile {
+    display: block;
+    background-color: white;
+    color: white;
+    height: auto;
+    width: 55%;
+    max-width: 55%;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    right: 12%;
+    padding: 16px 0;
+    border: 1px solid #1ddddd;
+    border-radius: 8px;
+  }
+
+  .header_block_right_mobile ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header_block_right_mobile ul li {
+    list-style: none;
+    margin: 12px 0px;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 30ms;
+  }
+
+  .header_block_right_mobile ul li:hover {
+    border-bottom: 2px solid #dddddd;
+  }
+
+  .header_block_rigth .subscribe {
+    margin: 0 auto;
+    width: 121px;
+    height: 36px;
+    top: 22px;
+    left: 1154px;
+    padding: 8px, 20px, 8px, 20px;
+    border-radius: 22px;
+    background: #1d1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

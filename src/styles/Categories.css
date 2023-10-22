@@ -1,0 +1,6 @@
+.categoryRowMain .singleCategory {
+    height: 150px;
+    width: 198px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
