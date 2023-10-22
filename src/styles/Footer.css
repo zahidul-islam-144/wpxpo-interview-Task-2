@@ -1,0 +1,200 @@
+.footerRowMain {
+    display: grid;
+    gap: 5%;
+    background: #1d1a1a;
+    color: white;
+    padding: 0 8%;
+}
+
+.footerRowMain .footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRowMain .footerTop > div:first-child{
+    width: 190px;
+    height: 415px;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) {
+    width: 300px;
+    height: 415px;
+}
+
+.footerRowMain .footerTop > div:last-child {
+    width: 380px;
+    height: 415px;
+}
+
+.footerRowMain .footerTop > div:first-child > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+
+.footerRowMain .footerTop > div:first-child > div:first-child {
+    font-family: Vidaloka;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-bottom: 10px;
+}
+
+.footerRowMain .footerTop > div:first-child > div:last-child{
+    border-bottom: none;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) > div,
+.footerRowMain .footerTop > div:last-child > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 0.2rem;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) > div:first-child {
+    font-family: Vidaloka;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-bottom: 55px;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) > div >div:first-child {
+    height: 100px;
+    width: 100px;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) > div >div:last-child > p:first-child {
+    font-family: Vidaloka;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-wrap:wrap;
+    margin-left: 12px;
+}
+
+.footerRowMain .footerTop > div:nth-child(2) > div >div:last-child > p:last-child {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 12px;
+    color: #c2c2c2;
+}
+
+.footerRowMain .footerBottom {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRowMain .footerBottom > div:first-child {
+    height: 105px;
+    width: 100%;
+    border-top: 1px solid #5c5a5a;
+    border-bottom: 1px solid #5c5a5a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerRowMain .footerBottom > div:first-child > div:first-child {
+    font-family: Quinshy;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footerRowMain .footerBottom > div:first-child > div:last-child{
+    min-width: 500px;
+    max-width: 500px;
+    height: auto;
+    padding: 8px 5px;
+}
+
+.footerRowMain .footerBottom > div:first-child > div:last-child ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerRowMain .footerBottom > div:first-child > div:last-child ul li {
+    list-style: none;
+}
+
+
+.footerRowMain .footerBottom > div:last-child div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRowMain .footerBottom > div:last-child div .copyRightText{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.footerRowMain .footerBottom > div:last-child div ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footerRowMain .footerBottom > div:last-child div ul li {
+    list-style: none;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.footerRowMain .footerBottom > div:last-child div ul li span svg {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.footerRowMain .footerBottom > div:last-child .copyRightText {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerRowMain .footerTop > div:last-child > div
+
+.footerRowMain .footerTop > div:last-child > div:first-child {
+    font-family: Vidaloka;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.footerRowMain .footerTop > div:last-child > div div {
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}

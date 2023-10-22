@@ -5,11 +5,6 @@ import LatestPost1 from "../assets/body1/latestPosts/latestPost1.png";
 const LatestPosts = () => {
   return (
     <>
-      <div className="horizontalBreakLine">
-        <fieldset>
-          <legend>Latest Posts</legend>
-        </fieldset>
-      </div>
       
       <Row className="d-flex justify-content-between flex-wrap align-items-center latestPostRowMain">
         {[...Array(3)].map((item, i) => (

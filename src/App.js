@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Body1 from "./components/Body1";
+import Footer from "./components/Footer";
 import TopHeader from "./components/TopHeader";
 import TopNav from "./components/TopNav";
 
@@ -10,6 +11,7 @@ function App() {
       <TopNav/>
       <Banner/>
       <Body1/>
+      <Footer/>
     </div>
   );
 }
